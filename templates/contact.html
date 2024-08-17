@@ -1,0 +1,36 @@
+{% include "header.html" %}
+
+
+<div class="masthead" style="background-image: url('../static/images/img9.jpg')" >
+    <div class="container px-4 py-5 my-5 text-center position-relative col-md-10 col-lg-8 col-xl-7">
+        <h1 class="heading">Fill Out The Form Below To Reach Out To Me</h1>
+    </div>
+</div>
+
+<div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg align-items-center g-5 py-5">
+
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Leave Me A Message!</h1>
+            <p class="lead">You know learning never ends and the best way to learn is by doing.
+             In case you have any job opportunity that matches my skills and experience, don't hesitate to fill out the form and
+                hit the send button.
+            </p>
+          </div>
+        <div class="col-10 col-sm-8 col-lg-6">
+          <h1 class="contact">Contact Form</h1>
+          <form action="https://formsubmit.co/5dc8c80ffba80c7173eaf5868e0c52db" method="POST">
+                <input type="text" name="first" placeholder="First Name" autocomplete="off" required>
+                <input type="text" name="last" placeholder="Last Name" autocomplete="off" required>
+                <input type="email" name="email" placeholder="Email Address" autocomplete="off" required>
+                <input type="int" name="phone number" placeholder="Phone Number" autocomplete="off" required>
+                <textarea rows="5" cols="60" name="message" placeholder="Enter text" autocomplete="off" required></textarea>
+                <button class="btn btn-primary" id="message" type="submit">Send Message</button>
+          </form>
+        </div>
+
+    </div>
+</div>
+
+
+{% include "footer.html" %}
