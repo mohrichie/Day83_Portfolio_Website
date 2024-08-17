@@ -36,7 +36,7 @@
 }
 
 .masthead{
-    background-image: url('../static/images/img1.jpeg') no-repeat center ;
+
     background-size: cover;
     color: white;
 
@@ -57,9 +57,7 @@ body{
     background-image: linear-gradient(#B0EFEF, #F0F3FF);
 }
 
-#navbarResponsive{
 
-}
 
 input{
     background-color: white;
